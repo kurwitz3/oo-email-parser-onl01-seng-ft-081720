@@ -2,7 +2,8 @@ require 'pry'
 class EmailAddressParser
     
   def initialize(email)
-   @email = email  
+   @email = email 
+   
     end
     def self.parse 
       email.split(",")
