@@ -9,7 +9,7 @@ class EmailAddressParser
       new = []
       @email.split(",")
        new << @email
-       binding.pry 
+      
       new 
 end 
 end 
