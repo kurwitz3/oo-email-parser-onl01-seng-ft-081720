@@ -5,7 +5,7 @@ class EmailAddressParser
    @email = email 
    @parse 
     end
-    def parse(email)
+    def parse
       new = []
       email.split(",")
       binding.pry 
