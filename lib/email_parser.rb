@@ -8,8 +8,8 @@ class EmailAddressParser
     def parse
       new = []
       @email.split(",")
-      binding.pry 
-      new << @email
+       new << @email
+       binding.pry 
       new 
 end 
 end 
