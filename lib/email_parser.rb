@@ -5,9 +5,10 @@ class EmailAddressParser
    @email = email 
    @parse 
     end
-    def self.parse
+    def self.parse(email)
       new = []
       email.split(",")
+      binding.pry 
       new << email
       new 
 end 
