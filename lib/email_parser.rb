@@ -3,7 +3,7 @@ class EmailAddressParser
     
   def initialize(email)
    @email = email 
-   
+   parse 
     end
     def self.parse 
       email.split(",")
