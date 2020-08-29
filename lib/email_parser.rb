@@ -1,8 +1,8 @@
 require 'pry'
 class EmailAddressParser
     
-  def inititalize
-    @email = email 
+  def initialize
+    
     
   end 
 end 
