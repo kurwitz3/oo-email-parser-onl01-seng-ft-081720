@@ -7,7 +7,7 @@ class EmailAddressParser
     end
     def parse
       new = []
-       new << @email
+       new << @email.split(" ,")
       
       new 
 end 
